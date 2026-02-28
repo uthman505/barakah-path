@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Barakah Path</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#f5f5f5;
+text-align:center;
+}
+
+header{
+background:green;
+color:white;
+padding:20px;
+}
+
+section{
+padding:40px;
+}
+
+footer{
+background:green;
+color:white;
+padding:15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Barakah Path</h1>
+
+<p>A Simple Path to Remember Allah</p>
+
+</header>
+
+<section>
+
+<h2>Assalamu Alaikum</h2>
+
+<p>
+
+Welcome to Barakah Path.
+
+A place for peaceful Islamic reminders.
+
+</p>
+
+<p>
+
+"Indeed in the remembrance of Allah do hearts find rest."
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Daily Reminder</h2>
+
+<p>
+
+Pray your salah on time.
+
+Trust Allah.
+
+Make dua daily.
+
+</p>
+
+</section>
+
+<footer>
+
+Barakah Path 2026
+
+</footer>
+
+</body>
+
+</html>
