@@ -4,72 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barakah Path</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: #4CAF50;
-            color: white;
-            padding: 15px 10px;
-            text-align: center;
-        }
-        h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        main {
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background: #4CAF50;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        .content-section {
-            margin-bottom: 20px;
-        }
-        .card {
-            background: #f9f9f9;
-            border-radius: 5px;
-            padding: 15px;
-            margin: 10px 0;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Hero Section -->
     <header>
-        <h1>Welcome to Barakah Path</h1>
+        <div class="hero">
+            <h1>Premium, Stunning, Award-Winning Design</h1>
+            <p>Your journey to excellence starts here.</p>
+            <a href="#sign-up" class="cta-button">Get Started</a>
+        </div>
     </header>
-    <main>
-        <section class="content-section">
-            <h2>About Us</h2>
-            <div class="card">
-                <p>Barakah Path is committed to promoting wellness and personal growth through innovative solutions.</p>
-            </div>
-        </section>
-        <section class="content-section">
-            <h2>Our Services</h2>
-            <div class="card">
-                <p>We offer a variety of services that empower individuals and foster community through shared knowledge and resources.</p>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 Barakah Path. All rights reserved.</p>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Features</h2>
+        <div class="feature-item">
+            <h3>Feature One</h3>
+            <p>Description of feature one.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Feature Two</h3>
+            <p>Description of feature two.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Feature Three</h3>
+            <p>Description of feature three.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <blockquote>
+            <p>"This product changed my life!" - Happy Customer</p>
+        </blockquote>
+        <blockquote>
+            <p>"Absolutely fantastic service!" - Satisfied Client</p>
+        </blockquote>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-plan">
+            <h3>Basic Plan</h3>
+            <p>$10/month</p>
+            <a href="#sign-up" class="cta-button">Choose Plan</a>
+        </div>
+        <div class="pricing-plan">
+            <h3>Pro Plan</h3>
+            <p>$20/month</p>
+            <a href="#sign-up" class="cta-button">Choose Plan</a>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <footer class="cta">
+        <h2>Start Your Journey Today!</h2>
+        <a href="#sign-up" class="cta-button">Sign Up Now</a>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
